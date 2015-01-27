@@ -8,7 +8,8 @@ VOLUME ["/data"]
 VOLUME ["/data/world"]
 
 ADD server.properties /data/server.properties
-ADD ops.txt /data/ops.txt
+ADD ops.json /data/ops.json
+ADD whitelist.json /data/whitelist.json
 ADD eula.txt /data/eula.txt
 ADD https://s3.amazonaws.com/Minecraft.Download/versions/$VERSION/minecraft_server.$VERSION.jar /data/minecraft_server.jar
 
